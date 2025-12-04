@@ -1,0 +1,107 @@
+/* ====== FONDO Y CUERPO ====== */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: #1e1e2f; /* fondo oscuro elegante */
+    color: #e0e0e0;
+}
+
+/* ====== NAVBAR ====== */
+.navbar {
+    width: 100%;
+    background: #2c2c44; /* navbar oscuro */
+    padding: 18px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 3px solid #3a3a5a;
+}
+
+.logo {
+    color: #ffdd57; /* logo resaltado */
+    margin: 0;
+}
+
+.links a {
+    margin-left: 25px;
+    color: #a9d0f5; /* links claros */
+    text-decoration: none;
+    font-size: 17px;
+    transition: 0.3s;
+}
+
+.links a:hover {
+    color: #ffd633; /* hover más visible */
+    text-shadow: 0px 0px 8px #ffd633;
+}
+
+/* ====== CONTENEDOR PRINCIPAL ====== */
+.main-container {
+    width: 90%;
+    max-width: 1000px;
+    margin: 60px auto;
+    text-align: center;
+}
+
+.main-container h1 {
+    color: #5dade2; /* título principal azul claro */
+    font-size: 36px;
+}
+
+.desc {
+    font-size: 18px;
+    color: #cbd5e1;
+    margin-bottom: 40px;
+}
+
+/* ====== CONTENEDOR DE CUADROS ====== */
+.box-container {
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/* ====== CAJAS ====== */
+.box {
+    width: 420px;
+    background: #2c2c44; /* caja oscuro */
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 15px #00000055;
+    transition: 0.3s;
+}
+
+.box:hover {
+    background: #3a3a5a; /* hover más claro */
+    transform: translateY(-5px);
+}
+
+.box h2 {
+    color: #ffdd57; /* título de caja amarillo claro */
+    margin-bottom: 15px;
+}
+
+.box p {
+    color: #e0e0e0;
+    font-size: 16px;
+}
+
+/* ====== BOTÓN ====== */
+.btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 20px;
+    background: #85c1e9; /* azul claro más visible */
+    color: #1e1e2f; /* texto oscuro para contraste */
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #a9d0f5; /* hover más claro */
+    box-shadow: 0px 0px 10px #a9d0f5;
+}
